@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <meta name="viewport" content="width=480, user-scalable=0, maximum-scale=1">
+  </head>
+  <body>
+    <div id="container">
+      <div id="nav">
+        <div id="boxcontainer1">
+          <img src="/Images/logo.png" alt="" class="logo" />
+          <div class="logoname">Western Engage</div>
+        </div>
+        <div class="boxcontainer2">
+          <div class="items"><a href="">Home</a></div>
+          <div class="items"><a href="/about.html">About Us</a></div>
+          <div id="forarrow">
+            <div class="items" id="booking">Bookings</div>
+            <div id="arrow"></div>
+          </div>
+          <div class="items"><a href="/contact.html">Contact Us</a></div>
+        </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+
+      <div id="mid">
+        <div id="bookcontainer">
+          <div id="hotelbook" class="itembook">
+            <a href="/hotel.html">Hotel booking</a>
+          </div>
+          <div id="campbook" class="itembook">
+            <a href="/camp.html">Camp booking</a>
+          </div>
+          <div id="tourbook" class="itembook">
+            <a href="/tour.html">Tour packages</a>
+          </div>
+        </div>
+        <div id="link4">
+          <img src="/Images/whatsapp.png" alt="" id="link4img">
+          <div id="whead">WhatsApp us now!</div>
+        </div>
+        <div id="boxcontainer4">
+          <div id="tagline">No adventure is complete without</div>
+          <div id="tagline">you by our side</div>
+          <a href="/form.html">
+            <button id="book">Book now</button>
+          </a>
+        </div>
+        <!-- <div id="whatsapp">
+            <img src="/Images/whatsapp.png" alt="" id="whatsappimg">
+          </div> -->
+      </div>
+
+      <div id="attractions">
+        <div id="attractionsflex">
+          <div id="headattraction">Attractions</div>
+          <div class="slider">
+            <!-- fade css -->
+            <div class="myslide fade">
+              <img src="/Images/dance.jpg" id="format6">
+            </div>
+            
+            <div class="myslide fade">
+              <img src="Images/jeep.jpg" id="format1">
+            </div>
+            
+            <div class="myslide fade">
+              <img src="Images/camel.jpg" id="format3">
+            </div>
+            
+            <div class="myslide fade">
+              <img src="Images/quad.jpg" id="format4">
+            </div>
+
+            <div class="myslide fade">
+              <img src="Images/parasailing.jpg" id="format2">
+            </div>
+            
+            <div class="myslide fade">
+              <img src="Images/camp2.jpg" id="format5">
+            </div>
+            <!-- /fade css -->
+            
+            <!-- onclick js -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            <div class="dotsbox" style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
+              <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+            <!-- /onclick js -->
+          </div>
+        </div>
+      </div>
+
+      <div id="accomodations">
+        <div id="accomodationsflex">
+          <div class="accomodationsflex2">
+            <div class="boxcontaineracc2">
+              <img src="/Images/tour.jpg" alt="" class="img" id="img1" />
+            </div>
+            <div class="boxcontaineracc4">
+              <div id="flextitle3">Tour packages</div>
+              <div id="forpointsflex2">
+                <div id="points2">
+                  <div class="dots"></div>
+                  <div class="dots"></div>
+                  <div class="dots"></div>
+                </div>
+                <div id="specifications2">
+                  <div id="spec4">Customizable packages available</div>
+                  <div id="spec5">Jaislamer sightseeing</div>
+                  <div id="spec6">Specialized guides</div>
+                </div>
+              </div>
+              <a href="/tour.html">
+                <button id="know2">Know more</button>
+              </a>
+            </div>
+          </div>
+          <div class="accomodationsflex2" id="fix">
+            <div id="boxcontaineracc1">
+              <div id="flextitle1">Hotels</div>
+              <div id="forpointsflex1">
+                <div id="points1">
+                  <div class="dots"></div>
+                  <div class="dots"></div>
+                  <div class="dots"></div>
+                </div>
+                <div id="specifications1">
+                  <div id="spec1">Luxury stays without any hurdles</div>
+                  <div id="spec2">Free wifi available</div>
+                  <div id="spec3">Traditional Cuisines available</div>
+                </div>
+              </div>
+              <a href="/hotel.html">
+                <button id="know1">Know more</button>
+              </a>
+            </div>
+            <div class="boxcontaineracc2">
+              <img src="/Images/hotelpp.jpg" alt="" class="img" id="img2"/>
+            </div>
+          </div>
+          <div class="accomodationsflex2">
+            <div class="boxcontaineracc2">
+              <img src="/Images/camppp2.jpg" alt="" class="img" id="img3" />
+            </div>
+            <div class="boxcontaineracc4" id="fix2">
+              <div id="flextitle2">Camps</div>
+              <div id="forpointsflex2">
+                <div id="points2">
+                  <div class="dots"></div>
+                  <div class="dots"></div>
+                  <div class="dots"></div>
+                </div>
+                <div id="specifications2">
+                  <div id="spec4">
+                    Comfortable thick mattresses under your feet
+                  </div>
+                  <div id="spec5">Free wifi available</div>
+                  <div id="spec6">Dinner in dunes under starry skies</div>
+                </div>
+              </div>
+              <a href="/camp.html">
+                <button id="know2">Know more</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="amenities">
+        <div id="headamm">Our Amenities</div>
+        <div id="amenitiesflex">
+          <div class="rowflex">
+            <div class="boxcard">
+              <div class="fordescflex">
+                <div class="imgamenity">
+                  <img src="/Images/hygine.png" alt="" class="imgmainamenity" />
+                </div>
+                <div class="headamenity">Safety & hygiene</div>
+              </div>
+              <div class="descamenity" id="safety">
+                Masks, installed sanitizers and timely disinfection will be
+                provided.
+              </div>
+            </div>
+            <div class="boxcard">
+              <div class="fordescflex">
+                <div class="imgamenity">
+                  <img
+                    src="/Images/transport.png"
+                    alt=""
+                    class="imgmainamenity"
+                  />
+                </div>
+                <div class="headamenity">Transportation</div>
+              </div>
+              <div class="descamenity" id="transport">
+                Pickup/Drop services available near railway stations and
+                airports for your convience.
+              </div>
+            </div>
+            <div class="boxcard">
+              <div class="fordescflex">
+                <div class="imgamenity">
+                  <img src="/Images/wifi.png" alt="" class="imgmainamenity" />
+                </div>
+                <div class="headamenity">Wifi</div>
+              </div>
+              <div class="descamenity" id="wifi">
+                Enjoy the free wifi to have constant connectivity to social
+                media.
+              </div>
+            </div>
+          </div>
+          <div class="rowflex">
+            <div class="boxcard">
+              <div class="fordescflex">
+                <div class="imgamenity">
+                  <img
+                    src="/Images/battery.png"
+                    alt=""
+                    class="imgmainamenity"
+                  />
+                </div>
+                <div class="headamenity">Power Backup</div>
+              </div>
+              <div class="descamenity" id="power">
+                Power backup and refrigerators are available to make all
+                day-to-day activities easier.
+              </div>
+            </div>
+            <div class="boxcard">
+              <div class="fordescflex">
+                <div class="imgamenity">
+                  <img
+                    src="/Images/cigarttte.png"
+                    alt=""
+                    class="imgmainamenity"
+                  />
+                </div>
+                <div class="headamenity">Smoking room</div>
+              </div>
+              <div class="descamenity" id="smoke">
+                There is a smoking room available to make things convenient and
+                easy.
+              </div>
+            </div>
+            <div class="boxcard">
+              <div class="fordescflex">
+                <div class="imgamenity">
+                  <img src="/Images/food.png" alt="" class="imgmainamenity" />
+                </div>
+                <div class="headamenity">Food & beverages</div>
+              </div>
+              <div class="descamenity" id="coffee">
+                Welcome drinks, tea or coffee, breakfast, lunch and dinner will
+                be served to satisfy all your cravings.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="mid2">
+        <div id="boxcontainer5">
+          <div class="cardcontainer">
+            <div id="cardtitle">
+              <img src="/Images/hotel.png" alt="" id="cardtitleimg" />
+            </div>
+            <div id="carddesc">
+              20% Off
+              <div id="carddesc2">on hotels</div>
+            </div>
+          </div>
+          <div class="cardcontainer">
+            <div id="cardtitle">
+              <img src="/Images/bus-01.png" alt="" id="cardtitleimg2" />
+            </div>
+            <div id="carddesc">
+              20% Off
+              <div id="carddesc2">on tour package</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="customers">
+        <div id="title">Testimonials</div>
+        <div class="reviews">
+          <div class="box">
+            <div class="tageditor" id="tageditor1">
+              <img src="/Images/key.png" alt="" class="pic" />
+              <span class="name">Trisha</span>
+            </div>
+            <div class="tageditor" id="tageditor2">
+              <img src="/Images/key.png" alt="" class="pic" />
+              <span class="name">Riya</span>
+            </div>
+            <div class="tageditor" id="tageditor3">
+              <img src="/Images/key.png" alt="" class="pic" />
+              <span class="name">Rahul</span>
+            </div>
+          </div>
+          <div class="description">
+            <div class="descriptioneditor">
+              Good value for money.Staff is helpful, they went out of the way to
+              make the stay pleasant and memorable. Overall, I liked the
+              experience of staying in the camp.
+            </div>
+            <div class="descriptioneditor">
+              Great option for youth & senior citizens. The food was up to the
+              mark. The taste was too good. Apart from that the cleanliness of
+              the camp surrounding was also good. The best part was the facility
+              of the inbuilt washrooms which were very hygienic with both hot &
+              cold water supply.
+            </div>
+            <div class="descriptioneditor">
+              Overall a great experience and will surely contact them again when
+              we come to Jaisalmer next time. Staff and food was good. Also the
+              dance performances gives you a view of Rajasthani culture.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact">
+        <form method="POST" action="form-handler.php" id="form">
+            <input type="text" name="name" id="name" placeholder="Enter your name" />
+            <input type="text" name="phone" id="phone" placeholder="Enter your phone number" maxlength="10" />
+            <button id="request">Request a callback</button>
+        </form>
+        <div id="logoform">
+          <img src="/Images/logo.png" alt="" class="logo" id="logo" />
+          <div class="logoname" id="logoname">Western Engage</div>
+        </div>
+        <div id="contactcontainer">
+          <div id="links">
+            <div id="link2">
+              <a href=""><img src="/Images/intsa.png" alt="" class="links" /></a>
+            </div>
+            <div>
+              <a href="https://goo.gl/maps/awGGrTvxxpS3EtvCA"
+                ><img src="/Images/location.png" alt="" class="links" id="link3"
+              /></a>
+            </div>
+            <div>
+              <a href=""
+                ><img src="/Images/mail.png" alt="" class="links" id="link5"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modalcontainer">
+        <div class="modal">
+          <p id="text">Fill your fields.</p>
+          <button id="close">Close</button>
+        </div>
+      </div>
+    </div>
+    <script src="/JS/app.js"></script>
+  </body>
+</html>

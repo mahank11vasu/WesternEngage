@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="/CSS/form.css" />
+    <meta name="viewport" content="width=480, user-scalable=0, maximum-scale=1">
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="nav">
+        <div id="boxcontainer1">
+          <img src="/Images/logo.png" alt="" class="logo" />
+          <div class="logoname">Western Engage</div>
+        </div>
+        <div class="boxcontainer2">
+          <div class="items"><a href="/index.html">Home</a></div>
+          <div class="items"><a href="/about.html">About Us</a></div>
+          <div id="forarrow">
+            <div class="items" id="booking">Bookings</div>
+            <div id="arrow"></div>
+          </div>
+          <div class="items"><a href="/contact.html">Contact Us</a></div>
+        </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+
+      <div id="mid">
+        <div id="bookcontainer">
+          <div id="hotelbook" class="itembook">
+            <a href="/hotel.html">Hotel booking</a>
+          </div>
+          <div id="campbook" class="itembook">
+            <a href="/camp.html">Camp booking</a>
+          </div>
+          <div id="tourbook" class="itembook">
+            <a href="/tour.html">Tour packages</a>
+          </div>
+        </div>
+        <div id="link4">
+          <img src="/Images/whatsapp.png" alt="" id="link4img" />
+          <div id="whead">WhatsApp us now!</div>
+        </div>
+      </div>
+
+      <div id="forimg">
+        <div id="midcontainer3">
+          <div id="formcontainer">
+            <div id="headform">Booking Request Form</div>
+            <form action="" id="form">
+              <div class="formrow1">
+                <div class="rowhead">Name</div>
+                <input type="text" class="formatfield" />
+              </div>
+              <div class="formrow1">
+                <div class="rowhead">Email</div>
+                <input type="email" class="formatfield" />
+              </div>
+              <div class="formrow1">
+                <div class="rowhead">Phone number</div>
+                <input type="text" class="formatfield" />
+              </div>
+              <div id="formrow6">
+                <div class="rowhead">Select the service you want to avail:</div>
+                <div id="forformrow6flex">
+                  <div>
+                    <input
+                      type="radio"
+                      id="hotel"
+                      class="radioheads"
+                      name="selection"
+                      value="Hotel"
+                    />
+                    <label for="hotel" class="rowhead">Hotel</label>
+                  </div>
+                  <div>
+                    <input
+                      type="radio"
+                      id="camp"
+                      class="radioheads"
+                      name="selection"
+                      value="Camp"
+                    />
+                    <label for="camp" class="rowhead">Camp</label>
+                  </div>
+                  <div>
+                    <input
+                      type="radio"
+                      id="tour"
+                      class="radioheads"
+                      name="selection"
+                      value="Tour Packages"
+                    />
+                    <label for="tour" class="rowhead">Tour Packages</label>
+                  </div>
+                </div>
+              </div>
+              <div id="formrow2">
+                <div id="checkin">
+                  <div class="rowhead">Check-In</div>
+                  <input
+                    type="text"
+                    class="date"
+                    onfocus="(this.type = 'date')"
+                    onblur="(this.type = 'text')"
+                  />
+                </div>
+                <div id="checkout">
+                  <div class="rowhead">Check-Out</div>
+                  <input
+                    type="text"
+                    class="date"
+                    onfocus="(this.type = 'date')"
+                    onblur="(this.type = 'text')"
+                  />
+                </div>
+              </div>
+              <div id="formrow3">
+                <div id="adults">
+                  <div class="rowhead">Number of adults</div>
+                  <select name="" class="select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="9+">9+</option>
+                  </select>
+                </div>
+                <div id="childs">
+                  <div class="rowhead">Number of childs</div>
+                  <select name="" class="select">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="9+">9+</option>
+                  </select>
+                </div>
+                <div id="rooms">
+                  <div class="rowhead">Number of rooms</div>
+                  <select name="" class="select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+              </div>
+              <div id="formrow4">
+                <div class="rowhead">Comments</div>
+                <textarea name="" id="textarea" cols="101" rows="10"></textarea>
+              </div>
+              <div id="formrow5">
+                <button id="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div id="policy">
+          <div id="headpolicy">Cancellation Policy</div>
+          <div id="desccontent1">
+            <div class="points">
+              <div class="pointsformat" id="format1"></div>
+              <div class="pointsformat" id="format2"></div>
+              <div class="pointsformat" id="format3"></div>
+            </div>
+            <div id="descpoints1">
+              <div class="descpointsformat">
+                Cancellations made 15 or more days before check in date will be
+                free.
+              </div>
+              <div class="descpointsformat">
+                Cancellations made more than 7 days in advance but less than 15
+                days will incur a cancellation charge of 30% of booking amount.
+              </div>
+              <div class="descpointsformat">
+                No shows and cancellations made 0 to 7 days in advance will
+                incur 100% charge of the booking.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact">
+        <div id="contactcontainer">
+          <div id="logoform">
+            <img src="/Images/logo.png" alt="" class="logo" id="logoformat" />
+            <div class="logoname" id="logonameformat">Western Engage</div>
+          </div>
+          <div id="links">
+            <div id="link2">
+              <a href=""
+                ><img src="/Images/intsa.png" alt="" class="links"
+              /></a>
+            </div>
+            <div>
+              <a href="https://goo.gl/maps/awGGrTvxxpS3EtvCA"
+                ><img
+                  src="/Images/location.png"
+                  alt=""
+                  class="links"
+                  id="link3"
+              /></a>
+            </div>
+            <div>
+              <a href=""
+                ><img src="/Images/mail.png" alt="" class="links" id="link5"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modalcontainer">
+        <div class="modal">
+          <p id="text">Fill your fields.</p>
+          <button id="close">Close</button>
+        </div>
+      </div>
+    </div>
+    <script src="/JS/form.js"></script>
+  </body>
+</html>
